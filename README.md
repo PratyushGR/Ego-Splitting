@@ -71,6 +71,9 @@ g++ /path/to/file/ego_split.cpp -o /path/to/file/ego_split && /path/to/file/ego_
 
 We have uploaded our exectionlogs on the above 4 data sets in the outputs folder
 
+<img width="717" alt="image" src="https://user-images.githubusercontent.com/99221826/205423939-bc24ce82-632d-44b9-99be-acb278e49ad9.png">
+
+
 # Evaluation of our ego-splitting algorithm
 
 We have uploade a Evalauation.ipynd file in our project.
