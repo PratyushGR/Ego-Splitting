@@ -61,6 +61,43 @@ Execute the script and save the output to log file as below command
 
 g++ /path/to/file/ego_split.cpp -o /path/to/file/ego_split && /path/to/file/ego_split >> /path/to/log_file/tester_edges.log
 
+# Here is a sample output file which will be generated on successful execution of our algorithm
+<img width="494" alt="image" src="https://user-images.githubusercontent.com/99221826/205422713-4be70859-8793-4cc4-bfc3-642b8cc8ec44.png"><img width="494" alt="image" src="https://user-images.githubusercontent.com/99221826/205422725-2af69e61-8847-4575-b5c5-00cf722637ce.png">
+
+<img width="814" alt="image" src="https://user-images.githubusercontent.com/99221826/205422779-97386d01-a1f8-49d7-b3e8-b12fe3876991.png">
+
+We have uploaded our exectionlogs on the above 4 data sets in the outputs folder
+
+# Evaluation of our ego-splitting algorithm
+
+We have uploade a Evalauation.ipynd file in our project.
+Our evaluation foloows the follow steps,
+
+#### Step 1:
+As our source code is completly developed in C++ we have created some modules in python and pasted our final Overlapping Partitions outupt from logfile to our Ipynb file and the generated communities from it.
+
+<img width="1093" alt="image" src="https://user-images.githubusercontent.com/99221826/205423100-8b53af2e-5134-482e-9143-11a3fcfc19a1.png">
+
+#### Step 2:
+
+Then we have generated communities for our Overlapping partitions generated from each dataset using the below function
+<img width="1093" alt="image" src="https://user-images.githubusercontent.com/99221826/205423151-cff63940-e327-42ea-bf7c-02851d39cb7a.png">
+
+Here is a sample output for the communities generated for Tester_edges data set
+
+<img width="418" alt="image" src="https://user-images.githubusercontent.com/99221826/205423217-914139df-0668-427f-98fb-24a07a2fd041.png">
+
+#### Step 3: For caliculating F1 scores we have used the following algorithms proved in nf1 and cdlib packages of python
+
+<img width="668" alt="image" src="https://user-images.githubusercontent.com/99221826/205423526-dc93ef64-fd89-437a-91a7-57a25a3fb34e.png">
+
+<img width="816" alt="image" src="https://user-images.githubusercontent.com/99221826/205423376-a54da47d-4215-44b5-b5cc-a99279caa4bf.png">
+
+
+
+
+
+
 
 
 
