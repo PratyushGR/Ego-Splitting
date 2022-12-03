@@ -45,14 +45,24 @@ This is small graph authors have used to explain the framework in the research p
 # Code Execution
 we have implemented our project in C++ from scratch and we have not used any complex libraries any cpp compiler with right configuration would be able to run our script.
 
-###### please follow the below steps before executing the script
-# step1:
+# please follow the below steps before executing the script
+##### Step1:
+verify your G++ version, download it from https://formulae.brew.sh/formula/gcc or for Vs-code https://code.visualstudio.com/docs/languages/cpp
+
+<img width="442" alt="image" src="https://user-images.githubusercontent.com/99221826/205422337-597e29f7-1fdf-47af-b85e-b30bff5094ad.png">
+
+##### step2:
 Set correct Input file path to "file_name" variable in the main function in ego_split.cpp file in order to execute our algorithm on the provided data set and plot get the desired splitted ego's for each node
 
 <img width="398" alt="image" src="https://user-images.githubusercontent.com/99221826/205422118-fb213d42-4415-4456-87e8-c6ebd7ab9d8d.png">
 
-# step2:
-Excecute the e
+##### step3:
+Execute the script and save the output to log file as below command
+
+g++ /path/to/file/ego_split.cpp -o /path/to/file/ego_split && /path/to/file/ego_split >> /path/to/log_file/tester_edges.log
+
+
+
 
 
 
