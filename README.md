@@ -37,6 +37,7 @@ Data collected about Facebook pages (November 2017). These datasets represent bl
 
 ## c. DBLP
 The DBLP computer science bibliography provides a comprehensive list of research papers in computer science. We construct a co-authorship network where two authors are connected if they publish at least one paper together. Publication venue, e.g, journal or conference, defines an individual ground-truth community; authors who published to a certain journal or conference form a community. We regard each connected component in a group as a separate ground-truth community. We remove the ground-truth communities which have less than 3 nodes. We also provide the top 5,000 communities with highest quality which are described in our paper. As for the network, we provide the largest connected component.
+
 <img width="317" alt="image" src="https://user-images.githubusercontent.com/99221826/205421895-9eac5ffd-d944-4c2a-afec-a35714531537.png">
 
 ## tester_edges
