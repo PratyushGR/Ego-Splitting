@@ -15,7 +15,7 @@ C++
 ## Group: 9
 
 ## Contrubutors:
-Raj Indroju, Sai Krishna Reddy Kandhadi, Pratyush Reddy Gaggenapalli, Dinesh Kumar Pullepally
+Raj Indroju, Sai Krishna Reddy Kandhadi, Pratyush Reddy Gaggenapalli
 
 ## Github URL: 
 https://github.com/PratyushGR/Network_science_final_project.git
